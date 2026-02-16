@@ -1,0 +1,28 @@
+# Variables d'environnement
+.env
+
+# Uploads utilisateurs
+storage/documents/
+
+# Vendor (si géré via Composer)
+vendor/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP
+*.php~
