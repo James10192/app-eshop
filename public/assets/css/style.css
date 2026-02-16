@@ -1,0 +1,34 @@
+/* App Eshop — Surcharges Bootstrap uniquement */
+
+:root {
+    --app-sidebar-width: 260px;
+}
+
+/* ---- Navbar ---- */
+.app-navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.15);
+}
+
+/* ---- Statuts commandes ---- */
+.statut-en-attente { color: var(--bs-warning); }
+.statut-valide     { color: var(--bs-success); }
+.statut-refuse     { color: var(--bs-danger);  }
+.statut-en-cours   { color: var(--bs-info);    }
+.statut-termine    { color: var(--bs-secondary);}
+
+/* ---- Badges statuts ---- */
+.app-badge-statut { font-size: .75rem; }
+
+/* ---- Cards commandes ---- */
+.app-commande-card {
+    transition: box-shadow .15s ease;
+}
+.app-commande-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,.1);
+}
+
+/* ---- Table responsive par défaut ---- */
+.table th {
+    white-space: nowrap;
+    font-weight: 600;
+}
